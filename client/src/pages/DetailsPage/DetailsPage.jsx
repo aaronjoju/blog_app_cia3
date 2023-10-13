@@ -257,7 +257,7 @@ const DetailsPage = () => {
               </div>
               <div className=" w-full flex flex-col gap-3 mt-16 bg-gray-100 p-3">
                 {/* comment input */}
-                <h2 className=" text-xl font-medium text-gray-800"> Comment</h2>
+                {/* <h2 className=" text-xl font-medium text-gray-800"> Comment</h2>
                 <div className="  flex items-center">
                   <input
                     placeholder="Write comment ..."
@@ -267,7 +267,7 @@ const DetailsPage = () => {
                   <button className=" border border-white p-2">
                     <BsSendFill size={20} />
                   </button>
-                </div>
+                </div> */}
               </div>
             </div>
 
