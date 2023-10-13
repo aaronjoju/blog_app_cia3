@@ -74,10 +74,10 @@ const Navbar = ({ handleSearch }) => {
                       />
 
                       {loginUser &&
-                      loginUser.others &&
-                      loginUser.others.username ? (
+                      loginUser &&
+                      loginUser.username ? (
                         <p className="font-medium md:hidden text-gray-800">
-                          {loginUser.others.username}
+                          {loginUser.username}
                         </p>
                       ) : (
                         <p className="font-medium text-gray-800">Unknown</p>
